@@ -51,6 +51,8 @@ class HomePage extends StatelessWidget {
 
   Widget _appBar() {
     return SliverAppBar(
+      backgroundColor: Colors.white,
+      automaticallyImplyLeading: false,
       floating: true,
       elevation: 0,
       title: Card(
@@ -58,7 +60,7 @@ class HomePage extends StatelessWidget {
         child: Row(
           children: [
             IconButton(
-              icon: Icon(Icons.menu),
+              icon: Icon(Icons.menu, color: Colors.black),
               onPressed: () {},
             ),
             Expanded(

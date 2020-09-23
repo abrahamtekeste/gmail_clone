@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gmail_clone/screens/home_page.dart';
 import 'package:gmail_clone/widgets/custom_tab_bar.dart';
-import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class NavigationPage extends StatefulWidget {
   @override

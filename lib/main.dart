@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:gmail_clone/screens/log_in.dart';
 import 'package:gmail_clone/screens/navigation_page.dart';
 
 void main() {
@@ -12,11 +13,11 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        backgroundColor: Colors.white,
-        primaryColor: Colors.white,
+        // backgroundColor: Colors.white,
+        primaryColor: Colors.blueAccent,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: NavigationPage(),
+      home: LogIn(),
     );
   }
 }
